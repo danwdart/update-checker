@@ -1,0 +1,2 @@
+DISTRO="Gentoo"
+FX_VERSION=$(curl -i https://packages.gentoo.org/packages/www-client/firefox 2>/dev/null | grep firefox- | head -n1 | sed 's/.*firefox-\([0-9.]\+\).ebuild.*/\1/')

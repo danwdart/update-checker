@@ -1,0 +1,2 @@
+DISTRO=Arch
+FX_VERSION=$(curl -i https://www.archlinux.org/packages/extra/x86_64/firefox/download/ 2>/dev/null | grep Location | sed 's/.*firefox-\([0-9.]\+\).*/\1/')
