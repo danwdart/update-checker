@@ -1,6 +1,7 @@
 #!/bin/bash
 echo Update Checker
 echo Checking repositories for common packages...
+echo Firefox
 FX_OFFICIAL_URI="https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-GB"
 FX_OFFICIAL_VERSION=$(curl -i $FX_OFFICIAL_URI 2>/dev/null | grep firefox- | head -n1 | sed  's/.*firefox-\(.*\).tar.*/\1/')
 for i in checks/*;

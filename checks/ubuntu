@@ -1,2 +1,2 @@
-DISTRO="Ubuntu 16.04"
-FX_VERSION=$(curl "http://ftp.ubuntu.com/ubuntu/pool/main/f/firefox/" 2>/dev/null | grep "firefox_\([0-9.]\+\).*16.04.*deb" | head -n1 | sed 's/.*firefox_\([0-9.]\+\).*16.04.*deb.*/\1/')
+DISTRO="Ubuntu 18.04"
+FX_VERSION=$(curl "http://ftp.ubuntu.com/ubuntu/pool/main/f/firefox/" 2>/dev/null | grep "firefox_\([0-9.]\+\).*18.04.*deb" | head -n1 | sed 's/.*firefox_\([0-9.]\+\).*18.04.*deb.*/\1/')

@@ -1,2 +1,2 @@
-DISTRO="Fedora 24"
-FX_VERSION=$(curl "https://www.mirrorservice.org/sites/dl.fedoraproject.org/pub/fedora/linux/updates/24/x86_64/f/" 2>/dev/null | grep firefox- | head -n1 | sed 's/.*firefox-\([0-9.]\+\).*/\1/')
+DISTRO="Fedora 29"
+FX_VERSION=$(curl "https://www.mirrorservice.org/sites/dl.fedoraproject.org/pub/fedora/linux/updates/29/x86_64/f/" 2>/dev/null | grep firefox- | head -n1 | sed 's/.*firefox-\([0-9.]\+\).*/\1/')
